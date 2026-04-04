@@ -68,8 +68,8 @@ python yaml2sql.py
 
 | 쿼리 파일 | 대상 |
 |-----------|------|
-| `출력 쿼리(경찰용).sql` | 경찰 기관 필터링 출력 |
-| `출력 쿼리(모든 기관용).sql` | 전체 기관 출력 |
+| `output.query.for.police.sql` | 경찰관서 필터링 및 정렬 |
+| `output.query.for.all.users.sql` | 전체 기관 출력 (기관명 보정 없음) |
 
 ## 라이선스
 
