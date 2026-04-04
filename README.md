@@ -54,7 +54,7 @@ python docx2yaml.py
 `release`에서 내려받은 `query.for.make.tables.sql`을 PostgreSQL에서 실행하여 테이블을 생성합니다.
 
 ### Step 4-1. DB 기초자료 입력
-기관코드 전체자료(유형분류 의미추가).txt 를 org_master 테이블에 input 합니다. dbeaver 사용 기준으로 구분자는 '  '(따옴표 제외)를 복사해서 사용하고, 문자포맷은 EUC-KR 지정, NULL value make 에 대문자로 NULL 을 입력하면 됩니다. 
+기관코드 전체자료(유형분류 의미추가).txt 를 org_master 테이블에 input 합니다. dbeaver 사용 기준으로 구분자는 메모장에서 해당 텍스트를 열어서 tab을 통째로 복사해서 사용하고(/t, tab, TAB으로 입력하면 인식이 안될 수 있습니다.), 문자포맷은 EUC-KR 지정, NULL value make 에 대문자로 NULL 을 입력하면 됩니다. 
 
 ### Step 5. YAML → DB 입력
 `yaml2sql.py`를 실행하여 YAML 데이터를 PostgreSQL 테이블에 입력합니다.
