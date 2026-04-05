@@ -75,7 +75,7 @@ python yaml2sql.py
 목적에 맞는 쿼리 파일을 실행하면 정리된 SOP 데이터를 확인할 수 있습니다.
 
 ### Step 7(또는 Step 0?). 파이썬, DB 다 모르겠고 엑셀로 작업하고 싶은 경우
-'output_cell.xlsx' 를 내려받으면 위에서 DB로 정리하고 재구성한 파일을 내려받을 수 있습니다.
+[Release](https://github.com/mukapa/psn-sop-db/releases/tag/ps-lte) 에서 'output_cell.xlsx' 를 내려받으면 위에서 DB로 정리하고 재구성한 파일을 내려받을 수 있습니다.
 
 
 | 쿼리 파일 | 대상 |
